@@ -27,9 +27,21 @@
 //   } else {
 //     console.log("Vous êtes majeur.");
 //   }
-  //chaptre 10
-  for (let i = 1; i <= 10; i++) {
-    if (i === 5) continue; // sauter le 5
-    console.log("Nombre : " + i);
+// //   //chaptre 10
+// //   for (let i = 1; i <= 10; i++) {
+// //     if (i === 5) continue; // sauter le 5
+// //     console.log("Nombre : " + i);
+// }
+
+//CHAPITRE12
+let competences = ["C1", "C3", "C2", "C1", "C8"];
+let codeChoisi = "C1";
+let compteur = 0;
+for (let i = 0; i < competences.length; i++) {
+    if (competences[i] === codeChoisi) {
+      compteur++;
+    }
   }
+  console.log("Le code " + codeChoisi + " apparaît " + compteur + " fois.");
+ 
   
